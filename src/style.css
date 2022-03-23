@@ -1,0 +1,14 @@
+body {
+    background-image:url("https://i.etsystatic.com/27215223/r/il/e8de1e/3720894967/il_340x270.3720894967_5gm6.jpg");
+}
+
+header{
+    
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    color: snow;
+}
