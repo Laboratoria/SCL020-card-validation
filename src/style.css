@@ -1,4 +1,7 @@
 
+body{
+    background-color: black;
+}
 h1{
     
     font-size: xx-large;
@@ -21,3 +24,5 @@ img{
 width: 250px;
 height: 150px;
 }
+    
+

@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron&display=swap');
+
 
 body {background-color: black;
 }
@@ -9,14 +11,67 @@ h1{
     font-family:"russo one";
     font-size: 48px;
 }
-#hola{
+
+#stars{
     height: 50px;
     width:50px;
 }
-#nose{
-    height: 600px;
-    width: 500px;
-    display: block
-    ;
+
+.flex-container{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
 }
 
+#tour{
+    height: 600px;
+    width: 500px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#mapa{
+    height: 400px;
+    width: 400px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#precios{
+    height: 400px;
+    width: 400px;
+    float:right;
+}
+
+.flex-container p{
+    font-size: 30px;
+    font-weight: 200;
+    color: aliceblue;
+
+}
+
+a{
+    color: aliceblue;
+}
+
+.boton {
+    border: 1px solid brown; 
+    padding: 2px; 
+    background-color: chocolate;
+    color: greenyellow;
+    text-decoration:none;
+    text-transform:none;
+    font-family:"russo one";
+    border-radius:10px;
+    }
+
+    footer{
+        color: aliceblue;
+        font-style: italic;
+        text-align: center;
+    }
+
+    p{
+        font-family:"russo one";
+    }
