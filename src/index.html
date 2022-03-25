@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1> Reservar <br><em>Validar Tarjeta</em></h1>
+  <br>
+  <br>
+  
+  <label id="numerostarjeta"> Número de Tarjeta </label>
+  <!--creamos un campo de texto de tipo numero para que solo puedan ingresar numeros -->
+  <input type="number" id="ntarjeta" value="" placeholder="16 digitos" required/>
+  <br>
+  <br>
+  
+  <label id="nombreusuario"> Nombre y Apellido </label>
+  <input type="text" id="nombre" value="" placeholder="Maria Pino" required//>
+  <br>
+  <br>
+  
+  <label id="fecha"> Fecha de Vencimiento</label>
+  <input type="text" id="fechavencimiento" value="" placeholder= "MM/AA" required/>
+  <br>
+  <br>
+  
+  <label id="cvv"> CVV </label>
+  <input type="text" id="digito" value="" placeholder="Reverso de la tarjeta" required />
+  <br>
+  <br>
+  
+  
+    <button onclick="ObtenerTexto()"> Validar </button>
+  
+  <br>
+
+  <script src="index.js"></script>
+</body>
+
 </html>
