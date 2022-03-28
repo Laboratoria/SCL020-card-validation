@@ -1,24 +1,60 @@
-body {
-    
-    background-image: url("https://as2.ftcdn.net/v2/jpg/01/89/05/55/1000_F_189055511_EmGEr0MPrHQlPr5IEDEgdvFVTuB7Q4RU.jpg");
-    background-size: cover;
-   
-     }
 
-  h1  {
-  background-color: black;
-  color: red;
-  span style: border-image: initial; border: 4px solid blue;
-  font-family: Mouse Memoirs;
+
+    .encabezado {
+        color: azure;
+        font-family: Mouse Memoirs;
+        border: 1px solid blue;
+  background-color: blue;
+  padding: 10px;
+  width: 800px;
+  display: block;
+  margin: 100px;
       }
 
+  .enlaces {
+    color: azure;
+        font-family: Mouse Memoirs;
+        border: 1px solid blue;
+  background-color: blue;
+  padding: 10px;
+  width: 800px;
+  display: block;
+  margin: 100px;
+  }
 
-  .contenido  {
+  .pague {
     color: red;
-    font: oblique bold 120% cursive;
-    justify-content: flex-start
-       }
+    font-family: Mouse Memoirs;
+    border: 1px solid black;
+background-color: black;
+padding: 50px;
+width: 800px;
+display: inline; 
+margin: 100px;
 
+  }
+
+  .continuar {
+    color: azure;
+    font-family: Mouse Memoirs;
+    border: 1px solid blue;
+background-color: blue;
+padding: 10px;
+width: 800px;
+display: block;  
+margin: 80px; 
+  }
+
+  .box4{
+    color: azure;
+        font-family: Mouse Memoirs;
+        border: 1px solid blue;
+  background-color: blue;
+  padding: 50px;
+  width: 800px;
+  display: flex;
+  margin: 100px;
+  
   
 
- 
+  }
