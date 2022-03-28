@@ -28,12 +28,12 @@
         <div class="form">
           <label id="numerostarjeta"> Número de Tarjeta </label>
           <!--creamos un campo de texto de tipo numero para que solo puedan ingresar numeros -->
-          <input type="number" id="ntarjeta" value="" placeholder="16 digitos" required/>
+          <input type="numeric" id="ntarjeta" value="" maxlength="16" placeholder="16 digitos" required/>
           <br>
           <br>
           
           <label id="nombreusuario"> Nombre y Apellido </label>
-          <input type="text" id="nombre" value="" placeholder="Maria Pino" required//>
+          <input type="text" id="nombre" value="" placeholder="Maria Pino" required>
           <br>
           <br>
           
@@ -47,7 +47,7 @@
           <br>
           <br>
         </div>
-        <button class="boton" onclick="ObtenerTexto()"> Validar </button>
+        <button id="validar" class="boton"> Validar </button>
   
         <img class="imagen" src="pictures/Perro3.png" alt="">
       </div>
@@ -63,6 +63,7 @@
 
 
 
-    <script src="./validator.js"></script>
-  </body>
+<script src="index.js" type="module"></script>
+<script src="validator.js" type="module"></script>
+</body>
 </html>

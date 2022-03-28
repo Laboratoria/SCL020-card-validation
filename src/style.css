@@ -30,7 +30,7 @@ propias reglas, por eso NO está permitido el uso de frameworks de CSS
   }
   */
 
-*{
+  *{
     font-size: 20px;
     box-sizing: content-box;
     margin:0;
@@ -150,7 +150,7 @@ footer{
 input{
     /*outline: 1px solid rgb(197, 61, 2);*/
 Margin: 20px;
-color:#cbcaca;
+color:#080707;
 
 }
 
