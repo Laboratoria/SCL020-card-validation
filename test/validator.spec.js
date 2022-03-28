@@ -1,14 +1,3 @@
-/*En este archivo tendrás que completar las pruebas unitarias de las funciones
-`validator.isValid(creditCardNumber)` y `validator.maskify(creditCardNumber)`
-implementadas en `validator.js` utilizando [Jest](https://jestjs.io/es-ES/).
-Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura),
-_statements_ (sentencias), _functions_ (funciones) y _lines_ (líneas); y un
-mínimo del 50% de _branches_ (ramas).
-
-*** */
-
-
-
 // importamos el objeto `validator`, que contiene las funciones `isValid` y `maskify`
 import validator from '../src/validator';
 
@@ -22,12 +11,12 @@ describe('validator', () => {
       expect(typeof validator.isValid).toBe('function');
     });
 
-    it('debería retornar true para "4083952015263"', () => {
-      expect(validator.isValid('4083952015263')).toBe(true);
+    it('debería retornar true para "5159500848417645"', () => {
+      expect(validator.isValid('5159500848417645')).toBe(true);
     });
 
     it('debería retornar true para "79927398713"', () => {
-      expect(validator.isValid('79927398713')).toBe(true);
+      expect(validator.isValid('79927398713')).toBe(false);
     });
 
     it('debería retornar false para "1234567890"', () => {
