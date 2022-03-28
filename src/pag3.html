@@ -26,13 +26,29 @@
       <div class="containermain">
           
         <div class="form">
-            <form class="validation"></form>
-            <label for="name">Nombre:</label><br>
-            <input type="text"  name="fname"><br>
-            <label for="lname">Número de Tarjeta:</label><br>
-            <input type="text" id="cardnumber">
+          <label id="numerostarjeta"> Número de Tarjeta </label>
+          <!--creamos un campo de texto de tipo numero para que solo puedan ingresar numeros -->
+          <input type="number" id="ntarjeta" value="" placeholder="16 digitos" required/>
+          <br>
+          <br>
+          
+          <label id="nombreusuario"> Nombre y Apellido </label>
+          <input type="text" id="nombre" value="" placeholder="Maria Pino" required//>
+          <br>
+          <br>
+          
+          <label id="fecha"> Fecha de Vencimiento</label>
+          <input type="text" id="fechavencimiento" value="" placeholder= "MM/AA" required/>
+          <br>
+          <br>
+          
+          <label id="cvv"> CVV </label>
+          <input type="text" id="digito" value="" placeholder="Reverso de la tarjeta" required />
+          <br>
+          <br>
         </div>
-        <a href="pag3.html" class="boton">Validar</a>
+        <button class="boton" onclick="ObtenerTexto()"> Validar </button>
+  
         <img class="imagen" src="pictures/Perro3.png" alt="">
       </div>
     </main>
@@ -47,7 +63,6 @@
 
 
 
-    <script src="index.js" type="module"></script>
-    <script src="validator.js" type="module"></script>
+    <script src="./validator.js"></script>
   </body>
 </html>
