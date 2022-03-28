@@ -1,0 +1,196 @@
+/* Este archivo debe contener las reglas de estilo. Queremos que escribas tus
+propias reglas, por eso NO está permitido el uso de frameworks de CSS
+(Bootstrap, materialize, etc). */
+
+  
+/* IMAGENES 
+
+
+  .flex-container{
+    display: flex;
+    margin: 80px;
+    background-color: #ffffff ;
+    padding: 50px;
+    border: 2px solid #2f7056;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .flex-container div{
+      display:flex;
+  background-color: #e7ecee;
+  width: 100px;
+  margin:10px;
+  text-align: center;  
+  line-height: 75px;
+  font-size:10px;
+   
+  }
+  */
+
+*{
+    font-size: 20px;
+    box-sizing: content-box;
+    margin:0;
+    padding:0;
+    font-family: 'Gill Sans';
+
+}
+
+
+body{
+   /* outline: 20px solid red;*/
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: rgb(9, 121, 82);
+
+}
+
+header{
+   /* outline: 4px solid rgb(215, 248, 30);*/
+    background-color: rgb(9, 121, 82);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+       
+}
+
+.navmenu{
+   /* outline: 2px solid rgb(240, 124, 15);*/
+    margin: 40px 0px 10px 0px;
+   
+    
+}
+
+ul{
+    /*outline: 10px solid rgb(221, 20, 188);*/
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    
+    }
+a{
+    
+    /*outline: 2px solid cornflowerblue; */
+    text-decoration: none;
+    margin:40px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(9, 121, 82);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container{
+    
+    display:flex;
+    
+       
+}
+
+.containermain{
+    /*outline: 2px solid red;*/
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color:rgb(141, 140, 140);
+    font-style: italic;
+    
+}
+
+
+button{
+    border-radius: 10px;
+}
+
+
+
+p{
+    margin:50px;
+}
+
+img {
+    /*outline: 2px solid red;*/
+    width:20%;
+}
+
+.logo {
+    /*outline: 2px solid rgb(94, 255, 0);*/
+    width:30%;
+
+}
+
+
+footer{
+       display: flex;
+}
+
+.containerfooter{
+    background-color: rgb(9, 121, 82);
+    flex-grow:1;
+
+}
+
+/* pagina 3*/
+
+.form{
+    /*outline: 1px solid rgb(142, 17, 167);*/
+    padding: 20px;
+    margin: 80px 0px 20px 0px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 4px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+}
+
+input{
+    /*outline: 1px solid rgb(197, 61, 2);*/
+Margin: 20px;
+color:#cbcaca;
+
+}
+
+label{
+    /*outline: 1px solid yellow;*/
+    margin: 20px;
+   
+}
+
+
+
+
+/* video
+.item{
+    flex-basis: 100px;
+    height:100px;
+    background-color: blueviolet;
+    margin: 10px;
+    color:aliceblue;
+    
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+
+.item:nth-of-type(1){
+    order:1;
+    flex-grow:1;
+
+}
+.item:nth-of-type(2) {
+    order:2;
+    flex-grow:2;
+}
+.item:nth-of-type(3){
+    order: 3;
+    flex-grow:1;
+}
+
+*/

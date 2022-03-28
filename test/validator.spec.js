@@ -1,3 +1,14 @@
+/*En este archivo tendrás que completar las pruebas unitarias de las funciones
+`validator.isValid(creditCardNumber)` y `validator.maskify(creditCardNumber)`
+implementadas en `validator.js` utilizando [Jest](https://jestjs.io/es-ES/).
+Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura),
+_statements_ (sentencias), _functions_ (funciones) y _lines_ (líneas); y un
+mínimo del 50% de _branches_ (ramas).
+
+*** */
+
+
+
 // importamos el objeto `validator`, que contiene las funciones `isValid` y `maskify`
 import validator from '../src/validator';
 
