@@ -1,61 +1,74 @@
-
-
-    .encabezado {
-        color: azure;
-        font-family: Mouse Memoirs;
-        border: 1px solid blue;
-  background-color: blue;
-  padding: 10px;
-  width: 800px;
-  display: block;
-  margin: 100px;
-      }
-
-  .enlaces {
-    color: azure;
-        font-family: Mouse Memoirs;
-        border: 1px solid blue;
-  background-color: blue;
-  padding: 10px;
-  width: 800px;
-  display: block;
-  margin: 100px;
-  }
-
-  .pague {
-    color: red;
-    font-family: Mouse Memoirs;
-    border: 1px solid black;
-background-color: black;
-padding: 50px;
-width: 800px;
-display: inline; 
-margin: 100px;
-
-  }
-
-  .continuar {
+.encabezado {
     color: azure;
     font-family: Mouse Memoirs;
     border: 1px solid blue;
-background-color: blue;
-padding: 10px;
-width: 800px;
-display: block;  
-margin: 80px; 
-  }
+    background-color: blue;
+    padding: 10px;
+    width: 800px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 280px;
+    margin-right: 150;
+    margin: 150;
+}
 
-  .box4{
+.enlaces {
     color: azure;
-        font-family: Mouse Memoirs;
-        border: 1px solid blue;
-  background-color: blue;
-  padding: 50px;
-  width: 800px;
-  display: flex;
-  justify-content: center;
-  margin: 100px;
-  
-  
+    font-family: Mouse Memoirs;
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 10px;
+    height: 100px;
+    width: 800px;
+    margin-left: 150px;
+    margin-right: 280px;
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-  }
+main {
+    color: red;
+    font-family: Mouse Memoirs;
+    border: 1px solid black;
+    background-color: black;
+    padding: 50px;
+    width: 800px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 150px;
+    justify-content: center;
+}
+
+.continuar {
+    color: azure;
+    font-family: Mouse Memoirs;
+    border: 1px solid blue;
+    background-color: blue;
+    padding: 10px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 150px;
+    justify-content: center;
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    color: azure;
+    font-family: Mouse Memoirs;
+    border: 1px solid blue;
+    background-color: blue;
+    padding: 50px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1050;
+}
