@@ -62,10 +62,29 @@ const validator = {
     }
   },
   maskify: (numerotarjeta) => {
-    
+    //para obtener los ultimos 4 numeros//
+    let ultimonumero = numerotarjeta.substr(-4);
+
+    //saber cuantos caracteres quedan sin contar los ultimos 4 que quedaran visibles//
+    let cantidadcaracteres = (numerotarjeta.length) - 4
+
+    //para que en cada vuelta vaya agrupando los resultados entregados//
+    let nocultos = "";
+
+    for (let indice = 0; indice < cantidadcaracteres; indice++) {
+
+      nocultos = nocultos + "#";
+
+    }
+//tiene que estar fuera del for para que este puda hacer todo el proceso 
+//y me entregue el valor solicitado, de lo contrario si el return se encuentra 
+//dentro del for este darà una sola vuelta ya que va a entregar un valor
+    return nocultos + ultimonumero;
+
   }
   // ...
 };
+
 
 
 
