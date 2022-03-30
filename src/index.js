@@ -1,3 +1,3 @@
-$('form').card({
-    container: '.card-wrapper',
-    width: 280,
+import validator from './validator.js';
+
+console.log(validator);
