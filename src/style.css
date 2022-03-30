@@ -1,8 +1,8 @@
-body {
-    background-image:url("https://i.etsystatic.com/27215223/r/il/e8de1e/3720894967/il_340x270.3720894967_5gm6.jpg");
-}
 
-header{
+body{
+    background-color: black;
+}
+h1{
     
     font-size: xx-large;
     font-style: italic;
@@ -12,3 +12,17 @@ header{
     background-color: black;
     color: snow;
 }
+
+span{
+    background-color: black;
+    color: snow;
+    font-size:22px;
+}
+ 
+img{
+
+width: 250px;
+height: 150px;
+}
+    
+
