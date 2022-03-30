@@ -1,6 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron&display=swap');
+
 
 
 body {background-color: black;
@@ -10,6 +9,7 @@ h1{
     background-color: chocolate;
     font-family:"russo one";
     font-size: 48px;
+    color: snow;
 }
 
 #stars{
