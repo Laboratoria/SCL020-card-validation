@@ -2,7 +2,7 @@
 
 body {
     padding: 60px 0;
-    background-color: rgb(56, 53, 53);
+    background-color:#333;
     margin: 0 auto;
     width: 600px;
   }
@@ -22,8 +22,9 @@ body {
 h1 {
   font-size: 1.6em;
   font-family: "Roboto";
-  background-color: #6FB7E9;
+  background-color:chocolate;
   width: 0 auto;
+  text-align: center;
   
 }
 input {
@@ -42,7 +43,7 @@ input[type="submit"]{
     height: 60px;
     width: 100%;
     border: none;
-    background-color: #3C8DC5;
+    background-color:chocolate;
     color: #fff;
     margin-top: 2px;
     cursor: pointer;
@@ -52,7 +53,7 @@ input[type="submit"]{
     cursor: pointer;
   }
   input[type="submit"]:hover{
-    background-color: #6FB7E9;
+    background-color:chocolate;
     transition: 0.3s ease;
   }
   #column-left {
@@ -75,60 +76,22 @@ input[type="submit"]{
   }
    #front{
     height: 200px;
-    width: 295px;
+    width: 270px;
     float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin: auto;
+    
    }
    #back{
     height: 200px;
-      width: 295px;
+      width: 270px;
       float: right;
-      margin-right: 10px;
-      margin-bottom: 10px;
+      margin: auto;
    }
-   /*section {
+   section {
 
-    background-color: aliceblue;
-      border:1px solid pink;  
+    background-color: snow;
+      border:1px solid chocolate;
       padding:15px;  
       margin:10px;    
-   } */
-  @media only screen and (max-width: 480px){
-    body {
-      width: 100%;
-      margin: 0 auto;
-    }
-    .form-container {
-      margin: 0 2%;
-    }
-    input {
-      font-size: 1em;
-    }
-    #input-button {
-      width: 100%;
-    }
-    #input-field {
-      width: 96.5%;
-    }
-    h1 {
-      font-size: 1.2em;
-    }
-    input {
-      margin: 2px 0;
-    }
-    input[type="submit"]{
-      height: 50px;
-    }
-    #column-left {
-      width: 96.5%;
-      display: block;
-      float: none;
-    }
-    #column-right {
-      width: 96.5%;
-      display: block;
-      float: none;
-    }
-}
-
+   } 
+ 
