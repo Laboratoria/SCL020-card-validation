@@ -87,13 +87,13 @@ input[type="submit"]{
       margin-right: 10px;
       margin-bottom: 10px;
    }
-   section {
+   /*section {
 
     background-color: aliceblue;
       border:1px solid pink;  
       padding:15px;  
       margin:10px;    
-   }
+   } */
   @media only screen and (max-width: 480px){
     body {
       width: 100%;
