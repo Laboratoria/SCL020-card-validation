@@ -3,42 +3,12 @@ propias reglas, por eso NO está permitido el uso de frameworks de CSS
 (Bootstrap, materialize, etc). */
 
 
-/* IMAGENES 
-
-
-  .flex-container{
-    display: flex;
-    margin: 80px;
-    background-color: #ffffff ;
-    padding: 50px;
-    border: 2px solid #2f7056;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-  }
-  
-  .flex-container div{
-      display:flex;
-  background-color: #e7ecee;
-  width: 100px;
-  margin:10px;
-  text-align: center;  
-  line-height: 75px;
-  font-size:10px;
-   
-  }
-  */
-
+/* configuración cajas y margenes general*/
 * {
-    font-size: 20px;
     box-sizing: content-box;
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans';
-
-}
-
+    }
 
 body {
     /* outline: 20px solid red;*/
@@ -46,7 +16,8 @@ body {
     flex-direction: column;
     align-items: stretch;
     background-color: rgb(9, 121, 82);
-
+    font-family: 'Patrick Hand';
+    font-size: 20px;
 }
 
 header {
@@ -69,12 +40,34 @@ ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    margin: 0px 20px 0px 0px;
 
 }
 
+.containermain {
+    /*outline: 2px solid red;*/
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    color: rgb(141, 140, 140);
+    align-items: flex-end;
+    
+}
+
+
+.logotextoboton{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0px 50px 100px;
+    align-self: stretch;
+    width: 50%;
+    
+}
+
+
 .boton {
 
-    /*outline: 2px solid cornflowerblue; */
     text-decoration: none;
     margin: 40px;
     color: rgb(255, 255, 255);
@@ -83,82 +76,44 @@ ul {
     border-radius: 10px;
 }
 
-.container {
-    display: flex;
-}
 
-.containermain {
+.imagen {
     /*outline: 2px solid red;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(141, 140, 140);
-    font-style: italic;
+    width: 100%;
+    }
 
-}
-
-
-button {
-    border-radius: 10px;
-}
-
-
-
-p {
-    margin: 50px;
-}
-
-img {
-    /*outline: 2px solid red;*/
-    width: 20%;
-}
 
 .logo {
     /*outline: 2px solid rgb(94, 255, 0);*/
-    width: 30%;
+    width: 100%;
 
 }
 
 
 footer {
     display: flex;
+    
 }
 
 .containerfooter {
     background-color: rgb(9, 121, 82);
-    flex-grow: 1;
-
+   
 }
 
-/* pagina 3*/
-
-.form {
-    /*outline: 1px solid rgb(142, 17, 167);*/
-    padding: 20px;
-    margin: 80px 0px 20px 0px;
-    background: #FFFFFF;
-    box-shadow: 2px 4px 4px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-
+a{
+    font-size: 16px;
+    color:#FFFFFF;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
 }
 
-input {
-    /*outline: 1px solid rgb(197, 61, 2);*/
-    Margin: 20px;
-    color: #080707;
-
-}
-
-label {
-    /*outline: 1px solid yellow;*/
+p{
     margin: 20px;
+    padding:0px;
+    font-size: 30px;
+     
 
 }
-
-
-
-
 /* video
 .item{
     flex-basis: 100px;

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Reservas - Hotel MyCan</title>
+    <link rel="stylesheet" href="reservas.css" />
+  </head>
+  <body>
+  <header>
+
+    <nav class="navmenu">
+      <div class="logo"><img class="imagen3" src="pictures/logobco.png" width="40px" alt=""></div>
+      <ul>
+         <li> 
+          <a href="nosotros.html">Nosotros</a> 
+        </li>
+        <li>  
+          <a href="servicios.html">Servicios</a> 
+        </li>
+        <li>  
+          <a href="testimonios.html">Testimonios</a> 
+        </li>
+        <li>  
+          <a href="contacto.html">Contacto</a> 
+        </li>
+        <li>  
+          <a href="reservas.html">Reservar</a> 
+        </li>
+      </ul> 
+    </nav>
+  </header>
+  <section> 
+    <main>
+      <div class="containermain">
+        <div class="boxreservaypaso">
+        <h1>Reservar</h1>
+        <h2>Paso 1 de 2 </h2>
+        </div>
+      <div class="form">
+        <label id="numerostarjeta"> Número de Tarjeta* </label>
+        <!--creamos un campo de texto de tipo numero para que solo puedan ingresar numeros -->
+        <input type="numeric" id="ntarjeta" class= "inputcc" value="" maxlength="16" placeholder="16 digitos" required/>
+        <br>
+        <br>
+          
+          <label id="nombreusuario"> Nombre y Apellido* </label>
+          <input type="text" id="nombre" class= "inputcc" value="" placeholder="Maria Pino" required>
+          <br>
+          <br>
+          
+          <label id="fecha"> Fecha de Vencimiento*</label>
+          <input type="text" id="fechavencimiento"  class= "inputcc" value="" maxlength="5" placeholder= "MM/AA" required/>
+          <br>
+          <br>
+          
+          <label id="cvv"> CVV* </label>
+          <input type="text" id="digito" class= "inputcc" value="" maxlength="3" placeholder="Reverso de la tarjeta" required />
+         
+          <p>* Campos obligatorios</p>
+        </div>
+        <button id="validar" class="boton"> Validar </button>
+  
+        <img class="imagen" src="pictures/Perro2.png" alt="">
+      </div>
+    </main>
+  </section>
+    
+
+<footer> 
+  <div class="containerfooter">
+    
+  </div> 
+</footer>
+
+
+
+<script src="index.js" type="module"></script>
+<script src="validator.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+    /* outline: 20px solid red;*/
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: rgb(9, 121, 82);
+    font-family: 'Patrick Hand';
+    font-size: 20px;
+
+}
+
+header {
+    /* outline: 4px solid rgb(215, 248, 30);*/
+    background-color: rgb(9, 121, 82);
+    height: 100px;
+    
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.navmenu {
+    /* outline: 2px solid rgb(240, 124, 15);*/
+    margin: 40px 0px 10px 0px;
+    display:flex;
+    justify-content: space-between; 
+}
+
+ul {
+    /*outline: 10px solid rgb(221, 20, 188);*/
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0px 20px 0px 0px;
+
+}
+
+.boton {
+
+    /*outline: 2px solid cornflowerblue; */
+    text-decoration: none;
+    margin: 40px;
+    color: rgb(255, 255, 255);
+    background-color: #007056;;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.containermain {
+    /*outline: 2px solid red;*/
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(141, 140, 140);
+    font-style: italic;
+
+}
+
+.boxreservaypaso{
+   /* outline: 2px solid red;*/
+    display:flex;
+    flex-direction: column;
+}
+
+
+h1{
+    /*corregir ajuste de h1 padding y margin, quizas generar una div?*/
+   /* outline:2px solid yellow;*/
+    margin: 50px 0px 0px 0px;
+    padding: 0px 300px 0px 0px;
+    color:#007056;
+}
+
+h2{
+    font-size: 20px;    
+}
+
+p {
+    margin: 50px;
+}
+
+button {
+    border-radius: 10px;
+}
+
+.imagen {
+    /*outline: 2px solid red;*/
+    width: 40%;
+}
+
+.imagen3 {
+    margin-left: 40px;
+    
+
+}
+
+
+::placeholder{
+color: rgb(196, 196, 196);
+
+}
+
+
+
+footer {
+    display: flex;
+}
+
+.containerfooter {
+    background-color: #007056;;
+}
+
+/* pagina 3*/
+
+.form {
+    /*outline: 1px solid rgb(142, 17, 167);*/
+    padding: 20px 60px 20px 60px;
+    margin: 20px 0px 20px 0px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 4px 5px rgba(152, 152, 152, 0.2);
+    border-radius: 20px;
+
+}
+
+.inputcc {
+    Margin: 0px;
+    color: #000000;
+    border-radius: 5px;
+}
+
+
+
+label {
+    /*outline: 1px solid yellow;*/
+    margin: 20px;
+
+}
+
+a{
+    font-size: 16px;
+    color:#FFFFFF;
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
+}
+
+p{
+    margin: 20px;
+    padding:0px;
+    font-size: 10px;
+
+}
