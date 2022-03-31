@@ -65,7 +65,7 @@ const validator = {
     //para obtener los ultimos 4 numeros//
     let ultimonumero = numerotarjeta.substr(-4);
 
-    //saber cuantos caracteres quedan sin contar los ultimos 4 que quedaran visibles//
+    //saber cuantos caracteres quedan sin contar, los ultimos 4 que quedaran visibles//
     let cantidadcaracteres = (numerotarjeta.length) - 4
 
     //para que en cada vuelta vaya agrupando los resultados entregados//
@@ -73,6 +73,7 @@ const validator = {
 
     for (let indice = 0; indice < cantidadcaracteres; indice++) {
 
+      
       nocultos = nocultos + "#";
 
     }
@@ -83,9 +84,9 @@ const validator = {
 
   }
   // ...
+
+
 };
-
-
 
 
 export default validator;
