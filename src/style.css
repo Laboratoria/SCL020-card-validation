@@ -74,15 +74,15 @@ input[type="submit"]{
     flex-direction: row;
   }
    #front{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 295px;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
    }
    #back{
-    height: 300px;
-      width: 300px;
+    height: 200px;
+      width: 295px;
       float: right;
       margin-right: 10px;
       margin-bottom: 10px;
