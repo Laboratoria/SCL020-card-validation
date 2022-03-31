@@ -41,8 +41,8 @@ document.getElementById("validar").addEventListener('click', () => {
   let esvalida = validator.isValid(valortarjeta);
 
   if (esvalida) {
-    alert( validator.maskify(valortarjeta) + ' Tarjeta de Credito Valida, ' + nusuario + ' su reserva se ha realizado exitosamente.');
+    alert ('Tarjeta de Credito Valida, ' + nusuario + ' su reserva se ha realizado exitosamente.');
   } else {
-    alert( validator.maskify(valortarjeta) + ' Tarjeta de Credito Invalida, ' + nusuario + ' intente nuevamente.')
+    alert('Tarjeta de Credito Invalida, ' + nusuario + ' intente nuevamente.')
   }
 });
