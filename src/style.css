@@ -87,7 +87,8 @@ input[type="submit"]{
       margin-right: 10px;
       margin-bottom: 10px;
    }
-  
+   section {
+   
   @media only screen and (max-width: 480px){
     body {
       width: 100%;
