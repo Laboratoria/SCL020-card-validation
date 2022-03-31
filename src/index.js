@@ -11,17 +11,15 @@ document.getElementById("validar").addEventListener('click', () => {
   }
 
   let nombreyapellido = document.getElementById('nombre').value;
-  if (nombreyapellido=="") {
-  alert ('Debe ingresar Nombre y Apellido');
-  return;
-
+  if (nombreyapellido=="") {  
+    alert ('Debe ingresar Nombre y Apellido');
+    return;
   }
-
+  
   let fven = document.getElementById('fechavencimiento').value;
   if (fven=="") {
-  alert ('Debe ingresar Fecha de Vencimiento');
-  return;
-
+    alert ('Debe ingresar Fecha de Vencimiento');
+    return;
   }
 
   let codigo = document.getElementById('digito').value;
