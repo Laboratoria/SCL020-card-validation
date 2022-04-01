@@ -2,7 +2,7 @@
 
 body {
     padding: 60px 0;
-    background-color: white;
+    background-color:#333;
     margin: 0 auto;
     width: 600px;
   }
@@ -74,14 +74,14 @@ input[type="submit"]{
     flex-direction: row;
   }
    #front{
-    height: 300px;
+    height: 200px;
     width: 300px;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
    }
    #back{
-    height: 300px;
+    height: 200px;
       width: 300px;
       float: right;
       margin-right: 10px;
