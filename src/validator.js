@@ -84,13 +84,9 @@ const validator = {
 
   }
   // ...
-
-
 };
 
-
 export default validator;
-
 
 // obtener los ultimos 4 caracteres del texto
 // debemos contar cuantos caracteres tiene el texto - 4

@@ -40,24 +40,34 @@
         <h2>Paso 1 de 2 </h2>
         </div>
       <div class="form">
+
+        <label for="start">Ingrese su correo electrónico*</label>
+        <input type="text" id="correo" name="inputcc" value="" placeholder="xxxxxx.xxxx@xxxx.xx">
+        <br>
+        <br>
+
+        <label for="start">Seleccione una fecha*</label>
+        <input type="date" id="start" name="trip-start" value="AAAA-MM-DD" min="2022-04-01" max="2030-12-31">
+        <br>
+        <br>
+
         <label id="numerostarjeta"> Número de Tarjeta* </label>
-        <!--creamos un campo de texto de tipo numero para que solo puedan ingresar numeros -->
-        <input type="numeric" id="ntarjeta" class= "inputcc" value="" maxlength="16" placeholder="16 digitos" required/>
+        <input type="numeric" id="ntarjeta" class= "inputcc" value="" maxlength="16" placeholder="16 digitos" />
         <br>
         <br>
           
           <label id="nombreusuario"> Nombre y Apellido* </label>
-          <input type="text" id="nombre" class= "inputcc" value="" placeholder="Maria Pino" required>
+          <input type="text" id="nombre" class= "inputcc" value="" placeholder="Maria Pino" >
           <br>
           <br>
           
           <label id="fecha"> Fecha de Vencimiento*</label>
-          <input type="text" id="fechavencimiento"  class= "inputcc" value="" maxlength="5" placeholder= "MM/AA" required/>
+          <input type="text" id="fechavencimiento"  class= "inputcc" value="" maxlength="5" placeholder= "MM/AA" />
           <br>
           <br>
           
           <label id="cvv"> CVV* </label>
-          <input type="text" id="digito" class= "inputcc" value="" maxlength="3" placeholder="Reverso de la tarjeta" required />
+          <input type="text" id="digito" class= "inputcc" value="" maxlength="3" placeholder="Reverso de la tarjeta"  />
          
           <p>* Campos obligatorios</p>
         </div>

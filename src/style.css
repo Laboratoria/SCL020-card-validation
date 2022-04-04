@@ -114,6 +114,16 @@ p{
      
 
 }
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
 /* video
 .item{
     flex-basis: 100px;
