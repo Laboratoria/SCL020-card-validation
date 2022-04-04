@@ -2,156 +2,110 @@
 propias reglas, por eso NO está permitido el uso de frameworks de CSS
 (Bootstrap, materialize, etc). */
 
-
 /* configuración cajas y margenes general*/
 * {
-    box-sizing: content-box;
-    margin: 0;
-    padding: 0;
-    }
-
-body {
-    /* outline: 20px solid red;*/
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    background-color: rgb(9, 121, 82);
-    font-family: 'Patrick Hand';
-    font-size: 20px;
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
 }
 
-header {
-    /* outline: 4px solid rgb(215, 248, 30);*/
-    background-color: rgb(9, 121, 82);
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+/* configuración color fondo del cuerpo y tipografía general*/
+body {
+  background-color: #007056;
+  font-family: "Ubuntu";
+}
 
+/*Formato Header y barra de navegacións ============ */
+header {
+  background-color: #007056;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .navmenu {
-    /* outline: 2px solid rgb(240, 124, 15);*/
-    margin: 40px 0px 10px 0px;
+  margin: 40px 0px;
 }
 
 ul {
-    /*outline: 10px solid rgb(221, 20, 188);*/
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 0px 20px 0px 0px;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0px 20px 0px 0px;
+}
+a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 0px 10px;
+}
 
+.navmenu a:hover {
+  color: #004333;
+}
+
+/*Formato Section - Main */
+
+section {
+  max-height: max-content;
 }
 
 .containermain {
-    /*outline: 2px solid red;*/
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(255, 255, 255);
-    color: rgb(141, 140, 140);
-    align-items: flex-end;
-    
+  background-color: rgb(255, 255, 255);
+  min-height: 600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-items: center;
+  padding: 0px 30px;
+  align-items: center;
 }
-
-
-.logotextoboton{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 100px 0px 50px 100px;
-    align-self: stretch;
-    width: 50%;
-    
-}
-
-
-.boton {
-
-    text-decoration: none;
-    margin: 40px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(9, 121, 82);
-    padding: 10px;
-    border-radius: 10px;
-}
-
 
 .imagen {
-    /*outline: 2px solid red;*/
-    width: 100%;
-    }
-
-
-.logo {
-    /*outline: 2px solid rgb(94, 255, 0);*/
-    width: 100%;
-
+  align-self: flex-end;
+  /* margin-left: 500px; */
+  /* align-self: stretch; */
 }
 
-
-footer {
-    display: flex;
-    
+.containermain img {
+  max-width: 60%;
+  /* align-self: stretch; */
+  align-self: flex-end;
+  margin: 0;
 }
 
+.logotextoboton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.logotextoboton img {
+  max-width: 40%;
+  margin: 40px 0px;
+  align-self: center;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(103, 103, 103);
+}
+
+.boton {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #007056;
+  padding: 10px 35px;
+  margin: 50px 0px;
+  border-radius: 10px;
+}
+
+/*Formato Footer */
 .containerfooter {
-    background-color: rgb(9, 121, 82);
-   
+  display: flex;
+  justify-content: end;
+  margin: 20px 20px;
 }
-
-a{
-    font-size: 16px;
-    color:#FFFFFF;
-    text-decoration: none;
-    margin: 0px 10px 0px 10px;
-}
-
-p{
-    margin: 20px;
-    padding:0px;
-    font-size: 30px;
-     
-
-}
-
-label {
-    display: block;
-    font: 1rem 'Fira Sans', sans-serif;
-}
-
-input,
-label {
-    margin: .4rem 0;
-}
-/* video
-.item{
-    flex-basis: 100px;
-    height:100px;
-    background-color: blueviolet;
-    margin: 10px;
-    color:aliceblue;
-    
-
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    
-}
-
-
-.item:nth-of-type(1){
-    order:1;
-    flex-grow:1;
-
-}
-.item:nth-of-type(2) {
-    order:2;
-    flex-grow:2;
-}
-.item:nth-of-type(3){
-    order: 3;
-    flex-grow:1;
-}
-
-*/
