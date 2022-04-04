@@ -45,10 +45,7 @@ a {
   color: #004333;
 }
 
-/*Formato Section Main. Uso de flex box para layout, el main 
-se divide en 
-
-============ */
+/*Formato Section - Main */
 
 section {
   max-height: max-content;
@@ -106,6 +103,7 @@ h1 {
   border-radius: 10px;
 }
 
+/*Formato Footer */
 .containerfooter {
   display: flex;
   justify-content: end;
