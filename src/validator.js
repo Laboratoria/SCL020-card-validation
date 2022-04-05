@@ -82,6 +82,10 @@ const validator = {
 //dentro del for este darà una sola vuelta ya que va a entregar un valor
     return nocultos + ultimonumero;
 
+  },
+  email: (correo) => {
+    let regex = new RegExp('[a-z0-9]+@[a-z]+\.[a-z]{2,3}');
+    return regex.test (correo)
   }
   // ...
 };

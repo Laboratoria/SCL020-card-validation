@@ -1,6 +1,8 @@
 
 import validator from './validator.js';
 
+
+
 document.getElementById("validar").addEventListener('click', () => {
 
   let correoelectronico = document.getElementById('correo').value;
@@ -33,6 +35,13 @@ document.getElementById("validar").addEventListener('click', () => {
     return;
   }
 
+  let correo = document.getElementById('correo').value;
+  if(!validator.email(correo)){
+    alert('Debe ingresar un correo valido');
+    return;
+
+  }
+
   let nusuario = document.getElementById('nombre').value;
 
   //obtener el valor ingresado en el numero de tarjeta//
@@ -44,14 +53,26 @@ document.getElementById("validar").addEventListener('click', () => {
 
   if (esvalida) {
 
-    alert( validator.maskify(valortarjeta) + ' ' + tipoTC.tipoTarjeta(valortarjeta)  + ' es VÁLIDA, ' + nusuario + ' su reserva se ha realizado exitosamente. El comprobante de reserva será enviado al correo indicado anteriormente.');
-    window.location.href = "http://localhost:3000 "
+    let tipotarjeta = tipoTC.tipoTarjeta(valortarjeta);
+
+
+    if ( tipotarjeta === "" ){
+      alert( validator.maskify(valortarjeta) + ' ' + tipoTC.tipoTarjeta(valortarjeta)  + ' es INVÁLIDA, ' + nusuario + ' intente nuevamente.')
+    }else{
+      alert( validator.maskify(valortarjeta) + ' ' +  tipotarjeta + ' es VÁLIDA, ' + nusuario + ' su reserva se ha realizado exitosamente. El comprobante de reserva será enviado al correo indicado anteriormente.');
+      window.location.href = "http://localhost:3000 " 
+    }
+
+
+
   } else {
     alert( validator.maskify(valortarjeta) + ' ' + tipoTC.tipoTarjeta(valortarjeta)  + ' es INVÁLIDA, ' + nusuario + ' intente nuevamente.')
   }
 
 
 });
+
+
 
 const tipoTC = {
 tipoTarjeta : (numerotarjeta) => {
@@ -71,11 +92,70 @@ if (numerotarjeta.length === 16){
     return ("tarjeta de crédito AMERICAN EXPRESS")
   }
   else {
-    alert ("Tarjeta de crédito ingresada no es valida")
+    return "";
   }
 }
 else {
-  alert ("Tarjeta de crédito invalida")
+  return "";
 }
 }
 }
+
+
+
+const calendario = {
+  fechahoy : () =>{
+    
+    //obtenemos fecha actual//
+    const fecha = new Date();
+    let fechaespañol = fecha.toLocaleDateString('es-es');
+    let fechaseparada = fechaespañol.split("/");
+
+    let dia = fechaseparada[0]
+    let mes = fechaseparada[1]
+    let anhio= fechaseparada[2]
+
+    if (dia.length === 1){
+      dia = '0' + dia
+    } 
+    
+    if (mes.length === 1){
+      mes = '0' + mes
+    } 
+
+    let fechahoy = anhio + '-' + mes + '-' + dia
+
+    var input = document.getElementById("fecha");
+    input.setAttribute("min", fechahoy);
+  },
+
+
+  fechamax : () =>{
+    
+    //obtenemos fecha actual//
+    const fecha = new Date();
+    let fechamaxespañol = fecha.toLocaleDateString('es-es');
+    let fechamaxseparada = fechamaxespañol.split("/");
+
+    let diamax = fechamaxseparada[0]
+    let mesmax = String (Number (fechamaxseparada[1]) + 1)
+    let anhiomax= fechamaxseparada[2]
+
+    if (diamax.length === 1){
+      diamax = '0' + diamax
+    } 
+    
+    if (mesmax.length === 1){
+      mesmax = '0' + mesmax
+    } 
+
+    let fechamax = anhiomax + '-' + mesmax + '-' + diamax
+
+    var input = document.getElementById("fecha");
+    input.setAttribute("max", fechamax);
+  }
+
+
+} 
+calendario.fechahoy();
+calendario.fechamax();
