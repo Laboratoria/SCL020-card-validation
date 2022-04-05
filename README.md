@@ -176,19 +176,19 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [export - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/export)
 </p></details>
 
-- [ ] **Uso de linter (ESLINT)**
+- [*] **Uso de linter (ESLINT)**
 
-- [ ] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
+- [*] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
 
 ### Control de Versiones (Git y GitHub)
 
-- [ ] **Git: Instalación y configuración**
+- [*] **Git: Instalación y configuración**
 
-- [ ] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
+- [*] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
 
-- [ ] **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
+- [*] **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
 
-- [ ] **GitHub: Despliegue con GitHub Pages**
+- [*] **GitHub: Despliegue con GitHub Pages**
 
   <details><summary>Links</summary><p>
 
@@ -197,7 +197,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### user-centricity
 
-- [ ] **Diseñar un producto o servicio poniendo a la usuaria en el centro**
+- [*] **Diseñar un producto o servicio poniendo a la usuaria en el centro**
 
 ### product-design
 
@@ -222,9 +222,9 @@ Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
 En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
 para definir el producto final a nivel de experiencia y de interfaz.
 
-* Quiénes son los principales usuarios de producto.
-* Cuáles son los objetivos de estos usuarios en relación con tu producto.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
+* Quiénes son los principales usuarios de producto: Mayores de 18 años.
+* Cuáles son los objetivos de estos usuarios en relación con tu producto: Comprar un regalo en base a la caracteristica de su amigo u otro.
+* Cómo crees que el producto que estás creando está resolviendo sus problemas: Por medio de la caricaturizacion de una caulidad de la persona a quien se le hace el regalo.
 
 ### Interfaz de usuario (UI)
 
@@ -257,16 +257,16 @@ Estos puntos los presentarás en el `README.md`.
 
 Debe contener lo siguiente:
 
-* Un título con el nombre de tu proyecto.
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+* Un título con el nombre de tu proyecto: Card Validation "El mejor regalo para tu mejor amigo"
+* Un resumen de 1 o 2 líneas de qué se trata tu proyecto: El cliente tiene la necesidad de  hacer un regalo de manera rapida por lo que puede entrar a la pagina obteniendo una caracteristica de su amigo puede elegir un regalo acorde y divertido.
 * La imagen final de tu proyecto.
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
+    producto: Mayores de 18 años queno tengan el suficiente tiempo de pensar en un regalo.
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
+    usuarios: simplifica la busqueda del regalo ideal segun la caracteristica o cualidad de su amigo.
   3. Luego colocarás la foto de tu primer prototipo en papel.
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar. 
   5. Imagen del prototipo final.
 
 #### Visualmente (HTML y CSS)

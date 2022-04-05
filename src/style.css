@@ -1,0 +1,218 @@
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.button {
+  background-color: #a63251;
+  border: none;
+  color: wheat;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 100px;
+  margin: 0 auto;
+}
+/*barra de navegacion*/
+.menu {
+  display: grid;
+  grid-template-columns: 40px auto;
+  background-color: #f26666;
+  text-align: center;
+  font-size: 30px;
+}
+.textNav > p {
+  margin: 5px;
+  padding: 5px;
+  color: white;
+}
+.logo {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+/*screen1*/
+#screen1 {
+  background-color: #3a2740;
+  color: #f2efbb;
+  text-align: center;
+  min-height: 80vh;
+}
+#filterAge {
+  display: flex;
+  margin: 0 auto;
+  max-width: 50%;
+}
+.selectAge {
+}
+
+/*screen2*/
+#question1 {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  background-color: #f2efbb;
+  padding: 45px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#question2 {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  background-color: #3a2740;
+  padding: 35px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.friendTypes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  padding: 50px;
+  background-color: #f2efbb;
+}
+
+.friendTypes > div {
+  width: 300px;
+  padding: 50px;
+}
+.screen2img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  padding: 20px 80px 20px 80px;
+}
+
+.friendTypes > div > ul {
+  width: 190px;
+  height: 100px;
+}
+.titleCard {
+  padding-left: 100px;
+}
+
+#titleVege {
+  padding-left: 90px;
+}
+
+#titleFit {
+  padding-left: 106px;
+}
+#titleCerve {
+  padding-left: 90px;
+}
+
+.cardDescription {
+  display: none;
+}
+
+.price {
+  padding-left: 80px;
+}
+
+/* screen3*/
+#screen3 {
+  text-align: center;
+  background-color: #f2efbb;
+}
+#cardNumber {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+#inputNumber {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+/*screen4*/
+#screen4 {
+  text-align: center;
+  background-color: #f2efbb;
+}
+#message {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.sizeImput {
+  padding: 8px;
+}
+.row {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+}
+
+.col-40 {
+  width: 40%;
+  margin-top: 6px;
+  text-align: left;
+  display: inline-block;
+}
+.col-60 {
+  width: 60%;
+}
+
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-40 {
+    width: 100%;
+    text-align: center;
+  }
+  .col-60 {
+    width: 100%;
+  }
+}
+
+#confirm {
+  max-width: 150px;
+  justify-content: center;
+}
+.sizeImput {
+  width: 100%;
+}
+
+/*footer*/
+footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  background-color: #f2a679;
+}
+.socialMedia {
+  text-align: right;
+}
+#insta {
+  width: 55px;
+  height: 55px;
+}
+#face {
+  width: 50px;
+  height: 50px;
+}
+#wsp {
+  width: 50px;
+  height: 50px;
+}

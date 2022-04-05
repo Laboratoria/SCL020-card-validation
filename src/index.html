@@ -6,9 +6,178 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+     <!--Navbar -->
+    <header>
+      <nav class="menu">   
+          <a class="logo" href="index.html"><img  src="png/logoRegaloExpress.png"></a>
+          <div class="textNav">
+          <p>Regalo Express</p>
+          <p>El mejor regalo para tu mejor amigo</p>    
+        </div> 
+      </nav>
+    </header>
+    <main>
+      
+
+      <!--Sreen 1 -->
+      <div id="screen1">
+        <h1>Para ingresar a comprar debes ser mayor de 18 años.</h1>  
+        <div id="filterAge"> 
+          <div class="selectAge">
+            <p>Sí, tengo o soy mayor de 18 años</p>
+            <button class="button" id="getIn">Entrar</button>
+          </div>
+          <div class="selectAge"> 
+            <p>Soy menor de 18 años</p>
+            <button class="button" id="getOut">Salir</button>
+          </div>  
+        </div>      
+      </div>
+
+      <!--Sreen 2 -->
+      <div id="screen2">
+        <p id="question1">¿No tienes tiempo? ¿Amas a tu mejor amigo y necesitas
+          hacerle un regalo? Llegaste a la pagina indicada.</p>
+        <p id="question2">¿Que característica representa mejor a tu amigo?</p>
+        <div class="friendTypes">
+         <div id="divPet">
+          <text class="titleCard">PetLover</text>
+          <img class="screen2img" src="png/Perro.png">
+           <ul class="cardDescription" id="cardPet">
+            <li>Cuaderno y lapiz con
+              imagen con motivo de
+              animales.</li>
+            <li>Polera con estampado
+              de animales talla estandar
+              o oversize.</li>
+           </ul>
+           <strong class="price">Valor $25.990</strong>
+          </div>
+        <div id="divRoma">
+          <text class="titleCard">Romantic@</text> 
+          <img class="screen2img" src="png/Corazon.png">
+          <ul class="cardDescription" id="cardRoma">
+            <li>Cuaderno y lápiz con 
+              motivo de corazón.</li>
+            <li>Una rosa roja.</li>
+            <li>Una caja de chocolate cacao al 90% sin azúcar.</il>
+          </ul>
+          <strong class="price">Valor $25.990</strong>
+         </div>
+        <div id="divVege">
+          <text id="titleVege">Vegetarian@</text>
+          <img class="screen2img" src="png/Ensalada.png">
+          <ul class="cardDescription" id="cardVege">
+            <li>Libro “500 recetas de
+              comida Vegetariana”.</li>
+            <li>Kit De Cultivos Verduras Coloridas (GrowKit).</li>
+          </ul>
+          <strong class="price">Valor $25.990</strong>
+         </div>
+        <div id="divGolo">
+          <text class="titleCard">Golos@</text>
+          <img class="screen2img" src="png/Dulce.png">
+          <ul class="cardDescription" id="cardGolo">
+            <li>Tarro de M&M`s 1,76kg.</li>
+          </ul>
+          <strong class="price">Valor $25.990</strong>
+        </div>
+        <div id="divFit">
+          <text id="titleFit">Fitness</text>
+          <img class="screen2img" src="png/Pesas.png">
+          <ul class="cardDescription" id="cardFit">
+            <li>Libro “Potenciando tu
+              mente deportiva”.</li>
+            <li>Kit fitness athletic.</li>
+          </ul>
+          <strong class="price">Valor $25.990</strong>
+          </div>
+        <div id="divCerve">
+          <text id="titleCerve">Cervecer@</text>
+          <img class="screen2img" src="png/Cerveza.png">
+        <ul class="cardDescription" id="cardCerve">
+          <li>Pack coleccionista de
+            copas y vasos de cervecerías
+            6 unidades.</li>
+          <li>Set 5 Cervezas Selección
+            Moritz</li>
+        </ul>
+        <strong class="price">Valor $25.990</strong>
+      </div>
+      </div>
+     </div>
+      
+
+
+      <!--Sreen 3 -->
+      <div id="screen3">
+          <!--Acá se muestra la opción seleccionada-->
+          <form id="cardNumber" >
+            <label for="number">Ingresa tu número de tarjeta de crédito para validarla</label>
+            <div id="inputNumber">
+            <input id = "number" type="number" required>
+          </div>
+            <button class="button" id="validar">Validar</button>
+          </form>       
+      </div>
+
+      <!--Sreen 4 -->
+      <div id="screen4">
+        <div id="message">
+        <strong>El número de tarjeta **** **** **** 9876 es valido.</strong>
+      </div>
+        <form>
+          <div class="row">
+            <div class="col-40">  
+              <label  for="name">Ingresa el nombre de tu amigo</label>
+            </div>
+            <div class="col-60">
+              <input class="sizeImput" type="text" id="name" name="name">
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-40">  
+          <label for="direction">Ingresa la dirección para el envío del regalo</label>
+        </div>
+        <div class="col-60">
+          <input class="sizeImput" type="text" id="direction" name="direction">
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-40"> 
+          <label for="mail">Ingresa tu correo</label>
+        </div>
+        <div class="col-60">
+          <input class="sizeImput" type="mail" id="mail" name="mail">
+        </div>
+        </div>
+       <div class="row">
+        <div class="col-40"> 
+          <label for="dateGift">Indícanos la fecha de despacho, el despacho será desde las 24 hrs. siguientes a la compra</label>
+        </div>
+        <div class="col-60">
+          <input class="sizeImput" type="date" id="dateGift" name="dateGift">
+        </div>
+        </div>
+        <div class="row">
+          <input class= "button" id= "confirm" type="submit" value="Confirmar compra">
+        </div>
+        </form>
+
+      </div>
+
+
+
+    </main>
+    <footer>
+      <p>Ahorra tiempo, elige la cualidad que representa a tu amigo 
+      y consigue el regalo que se merece.</p>
+      <div class="socialMedia">
+      <img id="insta"  src="png/Instagram.png">
+      <img id="face" src="png/Facebook.png">
+      <img id="wsp" src="png/Whatsapp.png">
+    </div>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
