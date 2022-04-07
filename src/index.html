@@ -1,14 +1,70 @@
-<!DOCTYPE html>
-<html>
+  <!DOCTYPE html>
+  <html>
+
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <div class="header-content">
+        <img class="logo" src="img/logo.png" alt="logo" onclick="window.location.href='index.html'"> <!--img class permite modificar el tamaño de la imagen desde CSS-->
+        <div class="name-kitty" onclick="window.location.href='index.html'">Kitty Readers</div> 
+        <button class="button-account" role="button">Tu cuenta</button> <!--el texto cambia el puntero del botón-->
+      </div>
+    </header>
+
+  <main>
+    <div class="left"></div>
+    <div class="container">
+      <div class="product-image">
+        <image src="img/book.png" class="book-image"></image>
+      </div>
+      <div class="product-delivery">
+        <div class="product-icon" style="color:#FFFFFF"><i class="fa-solid fa-book-open"></i></div>
+        <p class="delivery-info">Libro del mes. Lo recibirás en los próximos 7 días hábiles.</p>
+      </div>
+      <div class="product-title">
+        <h1>Suscripción Trimestral</h1>
+      </div>
+      <div class="product-price">
+        <h3>$25.000</h3>
+      </div>
+      <div class="product-description">
+        <p>¿Quieres renovar tu colección de libros físicos pero no quieres perderte en el mar de opciones que te ofrecemos? Aquí tenemos la solución. Mensualmente te enviaremos un libro al azar según la temática que selecciones, acompañado de pequeños regalitos ad-hoc a la temática.
+        </p>
+      </div>
+      <div class="buttons">
+        <button class="subscribe" onclick="location.href='ccform.html'">SUSCRIBIR</button>
+        <button class="love">♥</button>
+      </div>
+    </div>
+<div class="rigth"></div>
+  </main>
+
+
+  <footer>
+  <div class="footer-content">
+      <p class="copyright">©Copyright 2022, Kitty Readers SpA. Todos los derechos reservados</p>
+      <ul class="social-media">
+      <li class="instagram"><a href="#">
+          <ion-icon name="logo-instagram" style="color:#FFFFFF"></ion-icon>
+        </a></li>
+      <li class="twitter" style="color:#FFFFFF"><a href="#">
+          <ion-icon name="logo-twitter" style="color:#FFFFFF"></ion-icon>
+        </a></li>
+    </ul>
+    
+  </div>
+
+  </footer>
     <script src="index.js" type="module"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/cfdda85fc2.js" crossorigin="anonymous"></script>
+
   </body>
-</html>
+
+  </html>
