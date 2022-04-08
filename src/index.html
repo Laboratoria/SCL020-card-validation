@@ -1,14 +1,85 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Tarjeta de crédito válida</title>
+    <script src="https://kit.fontawesome.com/93c3dea8c8.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Montserrat?query=mon"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    <div class="contenedor">
+      <header>
+        <h1 id="tituloWeb">Detalles del Viaje</h1>
+        <hr/>
+      </header>
+      <main>
+        <section class="destinoVuelo">
+          <div class="linea">
+            <p>Santiago ------------<i class="fa-solid fa-plane"></i>-------------- La Serena</p>
+          </div>
+        </section>
+        <section class="datosVuelo">
+          <p>
+            Fecha del vuelo
+            <br>
+            <hr>
+            31-03-2022
+            <br>
+            10:24
+          </p>
+        </section>
+        <section class="equipajeVuelo">
+          <p>En este vuelo puedes llevar:</p>
+          <ul>
+            <li> 
+              <i class="fa-solid fa-bag-shopping"></i>
+            1 Artículo personal
+            </li>
+            <li>
+              <i class="fa-solid fa-suitcase-rolling"></i>
+              1 Equipaje de mano (10Kg)
+            </li>
+          </ul>
+        </section>
+        <section class="montoTotal">
+          <p>Monto Total: $54.000</p>
+        </section>
+        <section class="tarjetaBase">
+          <p class="tituloTarjeta">
+            Ingresa los datos de tu tarjeta
+          </p>
+          <hr>
+          <ul class="datosTarjeta">
+            <form id="formulario"> 
+            <label class="textoTarjeta" for="NumeroTarjeta">
+              Número de la Tarjeta
+              <input type="number" min="1" max="9999999999" name="nTarjeta" id="numero" placeholder="XXXX XXXX XXXX XXXX" >
+            </label>
+              </form>
+            <br>
+            <label class="textoTarjeta" for="">
+              Código CVV
+             <input type="number"  name="" id="codigoCvv">
+            </label>
+            <br>
+            <label class="textoTarjeta" for="">
+              Fecha de Vencimiento
+              <div id="contenedorFecha">
+                <input type="month" name="" id="fechadevencimiento" min="2022-01" max="2028-01">
+              </div>
+            </label>
+          </ul>
+          <button id= "botonvalidar">
+            Validar Tarjeta
+         </button>
+        </section>
+      </main>
+    </div>
+      <script src="manipulaciondom.js"></script>
+    <script src="validator.js"></script>
   </body>
 </html>

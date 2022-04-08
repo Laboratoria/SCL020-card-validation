@@ -1,0 +1,288 @@
+body {
+  height: 1366px;
+  width: 1024px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(
+          to bottom,
+          rgba(245, 246, 252, 1),
+          rgba(80, 127, 255, 0.3)
+    		  ),
+            url(https://images.pexels.com/photos/2931915/pexels-photo-2931915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);     
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   font-family: "montserrat", sans-serif; 
+   color: #072C64;
+}
+
+.contenedor {
+  position: absolute;
+  width: 843px;
+  height: 1263px;
+  left: 18%;
+  top: 51px;
+  margin: 0 auto;
+
+  background: #E5E5E5;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+h1 {
+  justify-content: center;
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+hr {
+  display: flex;
+  justify-content: center;
+  height: 2px;
+  background-color: #072C64;
+  border: none;
+}
+
+linea {
+  border-top: 1px solid #072C64;
+  height: 2px;
+  max-width: 200px;
+}
+
+.destinoVuelo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  font-style: normal;
+  font-size: 24px;
+}
+
+
+.datosVuelo {
+position: absolute;
+width: 511px;
+height: 101px;
+left: 160px;
+top: 302px;
+
+background: #F4F2F2;
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+text-align: center;
+}
+
+.equipajeVuelo {
+  position: absolute;
+  left: 300px;
+  top: 425px;
+  font-style: normal;
+  font-size: 20px;
+
+}
+
+.montoTotal {
+  position: absolute;
+  width: 300px;
+  height: 38px;
+  left: 260px;
+  top: 568px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.tarjetaBase {
+  position: absolute;
+  width: 806px;
+  height: 512px;
+  left: 20px;
+  top: 708px;
+
+  background: #F4F2F2;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.tituloTarjeta {
+  text-align: center;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.datosTarjeta {
+  display: flex;
+  flex-direction: column;
+  margin-left: 22px;
+}
+
+.textoTarjeta {
+  margin-top: 20px;
+  font-style: normal;
+  font-size: 20px;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 3px;
+
+  border: 1.5px solid #398AB9;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+#numeroTarjeta {
+  width: 400px;
+  height: 40px;
+}
+
+#codigoCvv {
+  width: 400px;
+  height: 40px;
+}
+
+#contenedorFecha {
+  display: flex;
+  flex-direction: row;
+  
+  width: 400px;
+  height: 40px;
+}
+
+#fechadevencimiento {
+  width: 400px;
+  height: 40px;
+}
+
+#fechadevencimiento {
+
+  width: 400px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+button {
+position: absolute;
+justify-content: center;
+width: 277px;
+height: 46px;
+left: 260px;
+margin-top: 5%;
+color: #FFFFFF;
+
+background: #1C658C;
+border-radius: 30px;
+font-style: normal;
+font-size: 20px;
+}
+
+.aviso {
+  position: absolute;
+  width: 578px;
+  height: 38px;
+  left: 145px;
+  top: 1250px;
+  margin-top: 10px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.tarjetaBase {
+  position: absolute;
+  width: 806px;
+  height: 512px;
+  left: 20px;
+  top: 708px;
+
+  background: #F4F2F2;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.tituloTarjeta {
+  text-align: center;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.datosTarjeta {
+  display: flex;
+  flex-direction: column;
+  margin-left: 22px;
+}
+
+.textoTarjeta {
+  margin-top: 20px;
+  font-style: normal;
+  font-size: 20px;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 3px;
+
+  border: 1.5px solid #398AB9;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+#numeroTarjeta {
+  width: 400px;
+  height: 40px;
+}
+
+#codigoCvv {
+  width: 400px;
+  height: 40px;
+}
+
+#contenedorFecha {
+  display: flex;
+  flex-direction: row;
+  
+  width: 400px;
+  height: 40px;
+}
+
+#fechaTarjeta {
+  width: 400px;
+  height: 40px;
+}
+
+#fechaTarjeta2 {
+
+  width: 400px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+button {
+position: absolute;
+justify-content: center;
+width: 277px;
+height: 46px;
+left: 260px;
+margin-top: 5%;
+color: #FFFFFF;
+
+background: #1C658C;
+border-radius: 30px;
+font-style: normal;
+font-size: 20px;
+}
+
