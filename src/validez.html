@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Validación Tarjeta de Crédito</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section>
+    <header>
+      <h1>Método de pago / Tarjeta de Crédito</h1>
+    </header>
+
+    <div class="flex-container">
+      <div class="image-flex">
+        <img src="Parte-delantera.jpeg" id="front">
+        <img src="Parte-trasera.jpeg" id="back">
+      </div>
+    </div>
+    <br>
+    <div class="body-text">Rellene los datos correspondientes para cada campo</div>
+    <main>
+      <div class="errors hide" id="errors"><ul id="errors-list"></ul></div>
+      <form method="post" id="paymentForm">
+        <div class="form-container">
+          <div class="personal-information">
+            <h1>Información de Pago</h1>
+          </div>
+          <input class="columnLeft" type="text" name="firstName" placeholder="Nombre" />
+          <input class="columnRight" type="text" name="lastName" placeholder="Apellido" />
+          <input  type="text" id="creditCard" name="creditCard" placeholder="Número de tarjeta"/>
+          <input class="columnLeft" type="text" name="expiry" placeholder="MM / YY" />
+          <input class="columnRight" type="text" name="cvc" placeholder="CVC" />
+          <input id="input-button" type="submit" value="Submit" />
+        </div>
+      </form>
+    </main>
+  </section>
+  <footer></footer>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>

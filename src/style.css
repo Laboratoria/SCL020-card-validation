@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700,500);
+
+body {
+  padding: 60px 0;
+  background-color: #333;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.body-text {
+  padding: 0 20px 30px 20px;
+  font-family: "Roboto";
+  font-size: 1em;
+  color: #333;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.form-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.6em;
+  font-family: "Roboto";
+  background-color: chocolate;
+  width: 0 auto;
+  text-align: center;
+}
+
+input {
+  margin: 1px 0;
+  padding-left: 3%;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  display: block;
+  height: 50px;
+  width: 97%;
+  border: none;
+}
+
+input[type="submit"] {
+  display: block;
+  height: 60px;
+  width: 100%;
+  border: none;
+  background-color: chocolate;
+  color: #fff;
+  margin-top: 2px;
+  cursor: pointer;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: chocolate;
+  transition: 0.3s ease;
+}
+
+.columnLeft {
+  width: 46.5%;
+  float: left;
+  margin-bottom: 2px;
+}
+
+.columnRight {
+  width: 46.5%;
+  float: right;
+}
+
+.flex-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.image-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+#front {
+  height: 200px;
+  width: 270px;
+  float: left;
+  margin: auto;
+
+}
+
+#back {
+  height: 200px;
+  width: 270px;
+  float: right;
+  margin: auto;
+}
+
+section {
+  background-color: snow;
+  border: 1px solid chocolate;
+  padding: 15px;
+  margin: 10px;
+}
+
+.errors {
+  background-color: rgb(255, 160, 160);
+  border-radius: 4px;
+  border: rgb(180, 75, 75) solid 2px;
+  color: rgb(120, 0, 0);
+  padding: 10px;
+}
+
+.hide {
+  display: none;
+}
